@@ -1,0 +1,138 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.nav {
+    background-color: #333;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.nav ul {
+    list-style: none;
+    width: 100%;
+}
+
+.nav ul li {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    transition: background-color 0.3s;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 2em;
+    text-align: center;
+    background-color: #fff;
+    margin: 2em 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilos para las tarjetas de productos */
+.product-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    text-align: center;
+    width: 200px;
+}
+
+.product-card h3 {
+    color: #4CAF50;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+.product-card p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.5em;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+
+.section h2 {
+    color: #4CAF50;
+    margin-bottom: 1em;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
